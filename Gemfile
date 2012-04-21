@@ -23,6 +23,16 @@ end
 
 gem 'jquery-rails'
 
+group :test, :development do
+  gem 'minitest' #unlisted dependency for turn
+  gem 'turn'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'guard-rspec'
+  gem 'ruby_gntp'
+  # gem 'launchy'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

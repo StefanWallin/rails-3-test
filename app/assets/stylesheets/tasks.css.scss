@@ -1,0 +1,22 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.flash{
+	border-radius: 4px;
+	padding: 0.5em;
+	color: white;
+	font-weigth: bold;
+	text-align: center;
+}
+.alert{
+	background: red;
+}
+.notice{
+	background: darken(#dcf3fa,10%);
+}
+form,
+button,
+input[type=submit]{
+	display: inline-block;
+}
